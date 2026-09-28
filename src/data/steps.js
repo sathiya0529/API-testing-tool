@@ -1,0 +1,16 @@
+export const STEPS = [
+  ['Create an account', 'Register with your email or Google, then confirm your sign-in with a one-time code.'],
+  ['Create or select a collection', 'Collections keep related requests together. Start a new one or open an existing one.'],
+  ['Create an API request', 'Add a request to the collection. It opens in the request builder.'],
+  ['Configure method and URL', 'Choose GET, POST, PUT, PATCH or DELETE and enter the endpoint. Use {{BASE_URL}} to follow the active environment.'],
+  ['Configure parameters', 'Add query parameters as key and value pairs and switch them on or off.'],
+  ['Configure headers', 'Set headers such as Content-Type. Disabled rows are not sent.'],
+  ['Configure authentication', 'Pick API key, Bearer token or Basic auth. Tokens can come from an environment variable.'],
+  ['Add a body', 'Write JSON, add form-data fields or paste raw text for POST, PUT and PATCH requests.'],
+  ['Send the request', 'Press Send or use Ctrl + Enter. The request is executed by the server, not your browser.'],
+  ['Inspect the response', 'Read the status code, response time and size, then look through the body, headers and cookies.'],
+  ['Create tests', 'Add assertions to the request or build a standalone test case for it.'],
+  ['Validate the response', 'See which assertions passed and which checks raised warnings or errors.'],
+  ['Save the request', 'Save it to its collection so you can run it again later. Ctrl + S works too.'],
+  ['Analyze performance', 'Open the dashboard and performance pages to see response-time trends and failures.'],
+];
